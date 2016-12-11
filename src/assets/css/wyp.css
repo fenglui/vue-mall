@@ -1,0 +1,185 @@
+﻿.base-list-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    line-height: 1;
+}
+
+.v2-rank-base {
+    position: relative;
+    height: 1.68rem;
+    background-color: #fff;
+}
+
+.v2-rank-img {
+    display: inline-block;
+    width: 1.45rem;
+    height: 1.45rem;
+    float: left;
+    position: relative;
+    margin: .1rem 0 .1rem .1rem;
+}
+
+.v2-rank-index {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: .2rem;
+    width: .28rem;
+}
+
+.v2-rank-img .image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.v2-rank-index span {
+    font-size: 12px;
+    position: absolute;
+    height: .2rem;
+    line-height: .2rem;
+    width: .28rem;
+    text-align: center;
+}
+.v2-rank-text-white {
+    color: #fff!important;
+}
+
+.v2-rank-info p {
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow: hidden;
+    width: 100%;
+    font-size: 13px;
+    line-height: 18px;
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.v2-rank-core {
+    position: absolute;
+    right: .1rem;
+    bottom: .15rem;
+    width: 100%;
+}
+
+.v2-rank-market-price span {
+    font-size: 12px!important;
+}
+
+.v2-rank-market-price div b {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.v2-rank-price .sale-price {
+    vertical-align: text-bottom;
+    height: .31rem;
+    width: .58rem;
+    font-size: .16rem;
+    display: inline-block;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.v2-rank-group b {
+    display: inline-block;
+    text-align: center;
+    padding-left: .1rem;
+    font-weight: 400;
+    font-size: .12rem;
+    height: .305rem;
+    line-height: .305rem;
+    color: #666;
+}
+
+.v2-rank-btn {
+    font-family: Arial,Microsoft YaHei,\\9ED1\4F53,\\5B8B\4F53,sans-serif;
+    background-color: #ff2741;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    float: right;
+    height: .32rem;
+    line-height: .32rem;
+    text-align: center;
+    position: relative;
+    font-size: 13px;
+    width: .64rem;
+}
+
+.v2-rank-detail, .v2-rank-group {
+    height: .32rem;
+    line-height: .32rem;
+    position: relative;
+}
+.v2-rank-detail {
+    color: #fff;
+    display: block;
+    width: 100%;
+}
+.v2-rank-right-box {
+    position: relative;
+    display: inline-block;
+    float: right;
+    height: 100%;
+    width: 2rem;
+}
+
+.v2-rank-info {
+    position: absolute;
+    right: .1rem;
+    top: .18rem;
+    width: 1.9rem;
+    color: #333;
+    height: 53px;
+    overflow: hidden;
+}
+
+.v2-rank-right-box:before {
+    border-bottom: 1px solid #e0e0e0;
+    position: absolute;
+    content: '';
+    width: 200%;
+    left: 0;
+    top: 0;
+    height: 200%;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.v2-rank-group {
+    display: inline-block;
+    background-color: #fff;
+    float: right;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    overflow: hidden;
+    color: #f8453e;
+    width: 1.25rem;
+    border: 1px solid #f8453e;
+}
+
+.v2-rank-market-price {
+    color: #9c9c9c;
+    display: inline-block;
+    padding-left: .1rem;
+    margin-bottom: .07rem;
+    line-height: .2rem;
+}
+.v2-rank-market-price div {
+    font-size: 0;
+    display: inline-block;
+}

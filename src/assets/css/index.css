@@ -1,0 +1,302 @@
+﻿.container {
+    position: relative;
+    width: 100%;
+    max-width: 640px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 0 0 49px;
+    overflow-x: hidden;
+    background-color: #f8f8f8;
+}
+
+.cf-container {
+    max-width: 640px;
+    position: fixed;
+    height: .41rem;
+    top: 0;
+    width: 100%;
+    z-index: 10015;
+    background: #fff;
+    overflow: hidden;
+}
+
+    .cf-container .cf-content {
+        position: relative;
+        height: .51rem;
+        font-size: .14rem;
+        color: #333;
+        text-align: center;
+        top: 0;
+        white-space: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding: 0 .16rem;
+        z-index: 10010;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .cf-container .cf-edge {
+        position: fixed;
+        display: block;
+        top: 0;
+        left: 0;
+        z-index: 10008;
+        width: 100%;
+        background-color: #fff;
+        height: .41rem;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .cf-container li:first-child {
+        margin-left: 0 !important;
+    }
+
+    .cf-container .cf-tab-item {
+        height: .41rem;
+        display: inline-block;
+        margin-left: .2rem;
+        line-height: .41rem;
+        text-align: center;
+    }
+
+    .cf-container .cur-cf-tab {
+        border-bottom: 2px solid #ff2741;
+        color: #ff2741;
+        height: .41rem;
+        display: inline-block;
+        position: relative;
+    }
+
+#annv-index-banner {
+    position: relative;
+    width: 100%;
+    max-width: 640px;
+    height: 1.1rem;
+}
+
+    #annv-index-banner img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+
+.qe-wrapper-2 {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    padding: 7px 0 4px;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
+}
+
+    .qe-wrapper-2 li {
+        width: 25%;
+        float: left;
+        display: block;
+    }
+
+        .qe-wrapper-2 li .quick-entrance-cube {
+            display: block;
+            padding: 0;
+            width: 100%;
+            height: inherit;
+            text-align: center;
+            color: #fff;
+            position: relative;
+        }
+
+            .qe-wrapper-2 li .quick-entrance-cube img {
+                width: .39rem;
+                height: .33rem;
+            }
+
+            .qe-wrapper-2 li .quick-entrance-cube .new-tip {
+                position: absolute;
+                right: .19rem;
+                top: -.02rem;
+                height: 14px;
+                width: auto;
+                z-index: 10;
+            }
+
+                .qe-wrapper-2 li .quick-entrance-cube .new-tip img {
+                    height: inherit;
+                    width: auto;
+                }
+
+            .qe-wrapper-2 li .quick-entrance-cube .cube-text {
+                position: relative;
+                width: 100%;
+                height: .16rem;
+                line-height: .16rem;
+                color: #777;
+                margin-top: .05rem;
+                font-size: .12rem;
+            }
+
+                .qe-wrapper-2 li .quick-entrance-cube .cube-text .sp-haitao {
+                    font-weight: 700;
+                }
+
+        .qe-wrapper-2 li:nth-child(1) {
+            margin-left: 0;
+        }
+
+        .qe-wrapper-2 li:nth-last-child(1) {
+            margin-right: 0;
+        }
+
+    .qe-wrapper-2 .not-first-li-row {
+        margin-top: .14rem !important;
+    }
+
+
+.catboard-container {
+    margin-top: .41rem;
+    width: 100%;
+    height: 1.7rem;
+    padding: .05rem .06rem;
+    position: relative;
+    background-color: #fff;
+}
+
+.catboard-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+    .catboard-wrapper li {
+        float: left;
+        width: 25%;
+        height: .7rem;
+    }
+
+.catboard-item-box, .catboard-item-img {
+    width: 100%;
+    height: .53rem;
+}
+
+    .catboard-item-img img {
+        width: .54rem;
+        height: .54rem;
+        display: block;
+        margin: 0 auto;
+    }
+
+.catboard-item-name {
+    width: 100%;
+    text-align: center;
+    height: .17rem;
+    line-height: .18rem;
+    font-size: .12rem;
+    color: #666;
+}
+
+.catboard-second-row {
+    margin-top: .13rem;
+}
+
+#rp-banner {
+    margin-top: .41rem;
+    position: relative;
+    width: 100%;
+    display: block;
+    height: 1.4rem;
+}
+
+    #rp-banner, #rp-banner .islider-outer {
+        background-color: #fff;
+    }
+
+        #rp-banner .islider-outer li {
+            background-size: cover;
+            overflow-y: hidden;
+        }
+
+.single-list-item .goods-image {
+    position: relative;
+    width: 100%;
+    height: 1.92rem;
+}
+
+.single-list-item .goods-name {
+    position: relative;
+    font-size: .16rem;
+    color: #333;
+    line-height: .24rem;
+    max-height: .48rem;
+    padding: 0 .1rem;
+    overflow: hidden;
+}
+
+.single-list-item .detail {
+    position: relative;
+    margin-left: .1rem;
+    overflow: hidden;
+    height: .58rem;
+    padding-top: .16rem;
+}
+
+.single-list-item .detail img {
+    width: .17rem;
+    height: .17rem;
+    display: inline-block;
+    margin: .03rem .03rem 0 0;
+}
+
+.single-list-item .detail .group-desc {
+    font-size: .12rem;
+    margin-right: .02rem;
+    color: #666;
+}
+
+.single-list-item .detail .sale-price {
+    color: #df2127;
+    font-size: .19rem;
+    margin-right: .05rem;
+}
+
+.single-list-item .detail .sale-price i {
+    font-size: .11rem;
+}
+
+.single-list-item .detail .normal-price {
+    font-size: .12rem;
+    color: #9c9c9c;
+}
+
+.single-list-item .core {
+    position: absolute;
+    bottom: .15rem;
+    right: .1rem;
+    background-color: #ee2e3a;
+    text-align: center;
+    height: .34rem;
+    line-height: .34rem;
+    width: 1.02rem;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.single-list-item .core span {
+    color: #fff;
+    font-size: .14rem;
+}
+
+.single-list-item .core img {
+    width: .06rem;
+    height: .09rem;
+    margin: .12rem 0 0 .1rem;
+}
+
+.single-list-item {
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    height: auto;
+    line-height: 1 !important;
+    margin-bottom: .1rem;
+}
